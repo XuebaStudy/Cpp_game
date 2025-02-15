@@ -17,6 +17,9 @@ Cteam new_team(){
 }
 
 int main(){
+    system("chcp 65001");
+    system("cls");
+    // system("color 0a");  //设置文字颜色为绿色
 
     auto m0 = make_shared<Mage>(10);
     auto w3 = make_shared<Warrior>(10);
