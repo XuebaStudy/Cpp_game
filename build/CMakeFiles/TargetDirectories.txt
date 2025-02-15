@@ -1,0 +1,3 @@
+D:/desktop/C++game/build/CMakeFiles/main.dir
+D:/desktop/C++game/build/CMakeFiles/edit_cache.dir
+D:/desktop/C++game/build/CMakeFiles/rebuild_cache.dir
