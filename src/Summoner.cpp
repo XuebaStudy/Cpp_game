@@ -9,8 +9,15 @@ Summoner::Summoner(const string &name)
 Summoner::Summoner(const vector<shared_ptr<Creature>>& team, const std::string& name)
     : team(team), name(name) {}
 
+// 深度拷贝，Cteam 指向新的内存
 Summoner::Summoner(const Summoner& summoner)
-    : team(summoner.team), name(summoner.name) {}
+    : name(summoner.name) {
+    for (const auto& c : summoner.team) {
+        if (c) {
+            team.push_back(c->clone());
+        }
+    }
+}
 
 void Summoner::show_info() {
     cout << "Summoner: " << name << endl;

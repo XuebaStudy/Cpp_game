@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/Summoner.cpp.obj.d"
   "CMakeFiles/main.dir/src/Tools.cpp.obj"
   "CMakeFiles/main.dir/src/Tools.cpp.obj.d"
+  "CMakeFiles/main.dir/src/UserIO.cpp.obj"
+  "CMakeFiles/main.dir/src/UserIO.cpp.obj.d"
   "CMakeFiles/main.dir/src/main.cpp.obj"
   "CMakeFiles/main.dir/src/main.cpp.obj.d"
   "libmain.dll.a"

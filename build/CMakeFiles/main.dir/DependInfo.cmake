@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/desktop/C++game/src/Event.cpp" "CMakeFiles/main.dir/src/Event.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Event.cpp.obj.d"
   "D:/desktop/C++game/src/Summoner.cpp" "CMakeFiles/main.dir/src/Summoner.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Summoner.cpp.obj.d"
   "D:/desktop/C++game/src/Tools.cpp" "CMakeFiles/main.dir/src/Tools.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Tools.cpp.obj.d"
+  "D:/desktop/C++game/src/UserIO.cpp" "CMakeFiles/main.dir/src/UserIO.cpp.obj" "gcc" "CMakeFiles/main.dir/src/UserIO.cpp.obj.d"
   "D:/desktop/C++game/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.obj" "gcc" "CMakeFiles/main.dir/src/main.cpp.obj.d"
   )
 

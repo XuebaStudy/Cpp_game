@@ -1,0 +1,1 @@
+typedef std::vector<std::shared_ptr<Creature>> Cteam; // in "Creature.h"

@@ -9,5 +9,6 @@
 #include "Summoner.h"
 #include "Event.h"
 #include "Tools.h"
+#include "UserIO.h"
 
 #endif

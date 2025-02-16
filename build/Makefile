@@ -224,6 +224,30 @@ src/Tools.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Tools.cpp.s
 .PHONY : src/Tools.cpp.s
 
+src/UserIO.obj: src/UserIO.cpp.obj
+.PHONY : src/UserIO.obj
+
+# target to build an object file
+src/UserIO.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UserIO.cpp.obj
+.PHONY : src/UserIO.cpp.obj
+
+src/UserIO.i: src/UserIO.cpp.i
+.PHONY : src/UserIO.i
+
+# target to preprocess a source file
+src/UserIO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UserIO.cpp.i
+.PHONY : src/UserIO.cpp.i
+
+src/UserIO.s: src/UserIO.cpp.s
+.PHONY : src/UserIO.s
+
+# target to generate assembly for a file
+src/UserIO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UserIO.cpp.s
+.PHONY : src/UserIO.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -269,6 +293,9 @@ help:
 	@echo ... src/Tools.obj
 	@echo ... src/Tools.i
 	@echo ... src/Tools.s
+	@echo ... src/UserIO.obj
+	@echo ... src/UserIO.i
+	@echo ... src/UserIO.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

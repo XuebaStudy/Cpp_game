@@ -15,6 +15,7 @@ public:
 public:
     Summoner(const std::string &name = "Unknown");
     Summoner(const std::vector<std::shared_ptr<Creature>>& team,const std::string &name = "Unknown");
+    // 深度拷贝，Cteam 指向新的内存
     Summoner(const Summoner& summoner);
 
     void show_info();

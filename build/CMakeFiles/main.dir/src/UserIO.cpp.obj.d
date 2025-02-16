@@ -1,4 +1,4 @@
-CMakeFiles/main.dir/src/Event.cpp.obj: D:\desktop\C++game\src\Event.cpp \
+CMakeFiles/main.dir/src/UserIO.cpp.obj: D:\desktop\C++game\src\UserIO.cpp \
  E:/msys64/mingw64/include/c++/14.2.0/iostream \
  E:/msys64/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
  E:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -144,7 +144,9 @@ CMakeFiles/main.dir/src/Event.cpp.obj: D:\desktop\C++game\src\Event.cpp \
  E:/msys64/mingw64/include/c++/14.2.0/bits/ostream.tcc \
  E:/msys64/mingw64/include/c++/14.2.0/istream \
  E:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc \
- D:/desktop/C++game/include/Summoner.h \
+ E:/msys64/mingw64/include/c++/14.2.0/sstream \
+ E:/msys64/mingw64/include/c++/14.2.0/bits/sstream.tcc \
+ D:/desktop/C++game/include/Creature.h \
  E:/msys64/mingw64/include/c++/14.2.0/vector \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_uninitialized.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_vector.h \
@@ -173,7 +175,6 @@ CMakeFiles/main.dir/src/Event.cpp.obj: D:\desktop\C++game\src\Event.cpp \
  E:/msys64/mingw64/include/c++/14.2.0/bits/ranges_algobase.h \
  E:/msys64/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h \
  E:/msys64/mingw64/include/c++/14.2.0/pstl/execution_defs.h \
- D:/desktop/C++game/include/Creature.h \
  E:/msys64/mingw64/include/c++/14.2.0/unordered_map \
  E:/msys64/mingw64/include/c++/14.2.0/bits/unordered_map.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/hashtable.h \
@@ -181,70 +182,5 @@ CMakeFiles/main.dir/src/Event.cpp.obj: D:\desktop\C++game\src\Event.cpp \
  E:/msys64/mingw64/include/c++/14.2.0/bits/enable_special_members.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/node_handle.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/erase_if.h \
- D:/desktop/C++game/include/Tools.h \
- E:/msys64/mingw64/include/c++/14.2.0/thread \
- E:/msys64/mingw64/include/c++/14.2.0/stop_token \
- E:/msys64/mingw64/include/c++/14.2.0/atomic \
- E:/msys64/mingw64/include/c++/14.2.0/bits/std_thread.h \
- E:/msys64/mingw64/include/c++/14.2.0/semaphore \
- E:/msys64/mingw64/include/c++/14.2.0/bits/semaphore_base.h \
- E:/msys64/mingw64/include/c++/14.2.0/bits/chrono.h \
- E:/msys64/mingw64/include/c++/14.2.0/ratio \
- E:/msys64/mingw64/include/c++/14.2.0/limits \
- E:/msys64/mingw64/include/c++/14.2.0/ctime \
- E:/msys64/mingw64/include/c++/14.2.0/bits/parse_numbers.h \
- E:/msys64/mingw64/include/c++/14.2.0/bits/atomic_timed_wait.h \
- E:/msys64/mingw64/include/c++/14.2.0/bits/this_thread_sleep.h \
- E:/msys64/mingw64/include/semaphore.h \
- E:/msys64/mingw64/include/c++/14.2.0/chrono \
- E:/msys64/mingw64/include/c++/14.2.0/sstream \
- E:/msys64/mingw64/include/c++/14.2.0/bits/sstream.tcc \
- E:/msys64/mingw64/include/c++/14.2.0/bits/stl_algo.h \
- E:/msys64/mingw64/include/c++/14.2.0/bits/algorithmfwd.h \
- E:/msys64/mingw64/include/c++/14.2.0/bits/stl_heap.h \
- E:/msys64/mingw64/include/c++/14.2.0/bits/uniform_int_dist.h \
- E:/msys64/mingw64/include/c++/14.2.0/bits/chrono_io.h \
- E:/msys64/mingw64/include/c++/14.2.0/iomanip \
- E:/msys64/mingw64/include/c++/14.2.0/locale \
- E:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.h \
- E:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/time_members.h \
- E:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/messages_members.h \
- E:/msys64/mingw64/include/c++/14.2.0/bits/codecvt.h \
- E:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.tcc \
- E:/msys64/mingw64/include/c++/14.2.0/bits/locale_conv.h \
- E:/msys64/mingw64/include/c++/14.2.0/bits/quoted_string.h \
- E:/msys64/mingw64/include/c++/14.2.0/format \
- E:/msys64/mingw64/include/c++/14.2.0/array \
- E:/msys64/mingw64/include/c++/14.2.0/charconv \
- E:/msys64/mingw64/include/c++/14.2.0/optional \
- E:/msys64/mingw64/include/c++/14.2.0/span \
- E:/msys64/mingw64/include/c++/14.2.0/variant \
- E:/msys64/mingw64/include/c++/14.2.0/bits/unicode.h \
- E:/msys64/mingw64/include/c++/14.2.0/bits/unicode-data.h \
- E:/msys64/mingw64/include/c++/14.2.0/random \
- E:/msys64/mingw64/include/c++/14.2.0/cmath \
- E:/msys64/mingw64/include/math.h \
- E:/msys64/mingw64/include/c++/14.2.0/bits/specfun.h \
- E:/msys64/mingw64/include/c++/14.2.0/tr1/gamma.tcc \
- E:/msys64/mingw64/include/c++/14.2.0/tr1/special_function_util.h \
- E:/msys64/mingw64/include/c++/14.2.0/tr1/bessel_function.tcc \
- E:/msys64/mingw64/include/c++/14.2.0/tr1/beta_function.tcc \
- E:/msys64/mingw64/include/c++/14.2.0/tr1/ell_integral.tcc \
- E:/msys64/mingw64/include/c++/14.2.0/tr1/exp_integral.tcc \
- E:/msys64/mingw64/include/c++/14.2.0/tr1/hypergeometric.tcc \
- E:/msys64/mingw64/include/c++/14.2.0/tr1/legendre_function.tcc \
- E:/msys64/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc \
- E:/msys64/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc \
- E:/msys64/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
- E:/msys64/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
- E:/msys64/mingw64/include/c++/14.2.0/bits/random.h \
- E:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/opt_random.h \
- E:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h \
- E:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
- E:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h \
- E:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
- E:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h \
- E:/msys64/mingw64/include/c++/14.2.0/bits/random.tcc \
- E:/msys64/mingw64/include/c++/14.2.0/numeric \
- E:/msys64/mingw64/include/c++/14.2.0/bits/stl_numeric.h \
- E:/msys64/mingw64/include/c++/14.2.0/pstl/glue_numeric_defs.h
+ D:/desktop/C++game/include/UserIO.h \
+ D:/desktop/C++game/include/Creature.h

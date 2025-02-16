@@ -11,6 +11,10 @@ Creature::Creature(int HP, int ATK, const std::string& name, int DEF )
 Creature::Creature(const Creature& c)
     : HP(c.HP), ATK(c.ATK), DEF(c.DEF),  name(c.name) {}
 
+shared_ptr<Creature> Creature:: clone() const {
+    return make_shared<Creature>(*this);
+}
+
 void Creature::show_info() {
     cout << left << setw(10) << name;
     cout << "HP:" << setw(5) << ((HP > 0) ? HP : 0);
@@ -48,9 +52,11 @@ void Creature::attack_to(Cteam& team) {
             continue;
         else{
             if (this->ATK > c->DEF) {
+                cout << this->name << " hits " << c->name << " " << this->ATK - c->DEF << "HP" << endl;
                 c->HP -= this->ATK - c->DEF;
             }
             if (c->ATK > this->DEF) {
+                cout << c->name << " in turn reduces " << this->name << " " << c->ATK - this->DEF << "HP" << endl;
                 this->HP -= c->ATK - this->DEF;
             }
             break;
@@ -80,6 +86,10 @@ vector<int> Warrior::Warrior_level_HAD(int level){
     return HAD;
 }
 
+shared_ptr<Creature> Warrior::clone() const{
+    return make_shared<Warrior>(*this);
+}
+
 Mage::Mage(int level, const std::string& name)
     : Creature
     (Mage_level_HAD(level)[0],
@@ -101,6 +111,10 @@ vector<int> Mage::Mage_level_HAD(int level){
     return HAD;
 }
 
+shared_ptr<Creature> Mage::clone() const{
+    return make_shared<Mage>(*this);
+}
+
 void Mage::action(Summoner& master,Summoner& opponent){
     Lightning_Chain(opponent.team);
 }
@@ -111,7 +125,26 @@ void Mage::Lightning_Chain(Cteam& team){
         if(c->HP <= 0)
             continue;
         else{
+            cout << "Lightning Chain hits " << c->name << " 30HP" << endl;
             c->HP -= 30;
         }
     }
+}
+
+shared_ptr<Creature> CList::createCreature(const string& jobType, int level, const string& name) {
+
+    if (jobType == "Warrior") {
+        if(name == "Unknown")
+            return make_shared<Warrior>(level);
+        else
+            return make_shared<Warrior>(level, name);
+    } else if (jobType == "Mage") {
+        if(name == "Unknown")
+            return make_shared<Mage>(level);
+        else
+            return make_shared<Mage>(level, name);
+    }
+    // 如果未找到，输出提示信息并返回默认的 Warrior 对象
+    cout << "无效职业选择，已自动设置为 Warrior。" << endl;
+    return make_shared<Warrior>(level, name);
 }

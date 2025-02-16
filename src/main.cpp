@@ -5,6 +5,7 @@
 #include "Summoner.h"
 #include "Event.h"
 #include "Tools.h"
+#include "UserIO.h"
 
 using namespace std;
 
@@ -19,21 +20,39 @@ Cteam new_team(){
 int main(){
     system("chcp 65001");
     system("cls");
-    // system("color 0a");  //设置文字颜色为绿色
+    // system("color 0a");  //设置终端文字颜色为绿色
 
-    auto m0 = make_shared<Mage>(10);
-    auto w3 = make_shared<Warrior>(10);
-    Cteam Ateam = {w3,m0};
-    Summoner summonerA("A");
-    summonerA.summon(Ateam);
+    int n;
+    string nInput;
+    Summoner A("A");
+    cout << "请输入A的队伍：" << endl;
+    Cteam Ateam = inputTeam(3);
+    A.summon(Ateam);
+    A.show_info();
 
-    Cteam Bteam = new_team();
-    Summoner summonerB("B");
-    summonerB.summon(Bteam);
+    Summoner B("B");
+    cout << "请输入B的队伍：" << endl;
+    Cteam Bteam = inputTeam(3);
+    B.summon(Bteam);
+    B.show_info();
+    system("pause");
 
-    battle(summonerA,summonerB);
+    cout << "3 秒后开始战斗" << endl << endl;
+    sleep(1);
+    cout << "3" << endl << endl;
+    sleep(1);
+    cout << "2" << endl << endl;
+    sleep(1);
+    cout << "1" << endl << endl;
+    sleep(1);
 
+    battle(A,B);
+
+    cout << endl << "感谢您的试玩 !!!" << endl << endl;
+
+    system("pause");
     return 0;
+
 }
 
 

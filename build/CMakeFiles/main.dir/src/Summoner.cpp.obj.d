@@ -175,6 +175,13 @@ CMakeFiles/main.dir/src/Summoner.cpp.obj: \
  E:/msys64/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h \
  E:/msys64/mingw64/include/c++/14.2.0/pstl/execution_defs.h \
  D:/desktop/C++game/include/Creature.h \
+ E:/msys64/mingw64/include/c++/14.2.0/unordered_map \
+ E:/msys64/mingw64/include/c++/14.2.0/bits/unordered_map.h \
+ E:/msys64/mingw64/include/c++/14.2.0/bits/hashtable.h \
+ E:/msys64/mingw64/include/c++/14.2.0/bits/hashtable_policy.h \
+ E:/msys64/mingw64/include/c++/14.2.0/bits/enable_special_members.h \
+ E:/msys64/mingw64/include/c++/14.2.0/bits/node_handle.h \
+ E:/msys64/mingw64/include/c++/14.2.0/bits/erase_if.h \
  E:/msys64/mingw64/include/c++/14.2.0/iostream \
  E:/msys64/mingw64/include/c++/14.2.0/istream \
  E:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc
