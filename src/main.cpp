@@ -18,9 +18,9 @@ int main(){
     string user_name;
     user_name = inputName("冒险者", "你的名字");
     cout << "你好，" << user_name << "！" << endl;
+    Menu();
     system("pause");
 
-    // SimulateBattle();
 
     return 0;
 
