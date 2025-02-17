@@ -1,4 +1,4 @@
-CMakeFiles/main.dir/src/main.cpp.obj: D:\desktop\C++game\src\main.cpp \
+CMakeFiles/main.dir/src/Mode.cpp.obj: D:\desktop\C++game\src\Mode.cpp \
  D:/desktop/C++game/include/AllHeaders.h \
  E:/msys64/mingw64/include/c++/14.2.0/iostream \
  E:/msys64/mingw64/include/c++/14.2.0/bits/requires_hosted.h \

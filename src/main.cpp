@@ -1,11 +1,4 @@
-#include <iostream>
-#include <string>
-
-#include "Creature.h"
-#include "Summoner.h"
-#include "Event.h"
-#include "Tools.h"
-#include "UserIO.h"
+#include "AllHeaders.h"
 
 using namespace std;
 
@@ -21,36 +14,14 @@ int main(){
     system("chcp 65001");
     system("cls");
     // system("color 0a");  //设置终端文字颜色为绿色
-
-    int n;
-    string nInput;
-    Summoner A("A");
-    cout << "请输入A的队伍：" << endl;
-    Cteam Ateam = inputTeam(3);
-    A.summon(Ateam);
-    A.show_info();
-
-    Summoner B("B");
-    cout << "请输入B的队伍：" << endl;
-    Cteam Bteam = inputTeam(3);
-    B.summon(Bteam);
-    B.show_info();
+    cout << "欢迎来到剑与魔法的世界！" << endl << endl;
+    string user_name;
+    user_name = inputName("冒险者", "你的名字");
+    cout << "你好，" << user_name << "！" << endl;
     system("pause");
 
-    cout << "3 秒后开始战斗" << endl << endl;
-    sleep(1);
-    cout << "3" << endl << endl;
-    sleep(1);
-    cout << "2" << endl << endl;
-    sleep(1);
-    cout << "1" << endl << endl;
-    sleep(1);
+    // SimulateBattle();
 
-    battle(A,B);
-
-    cout << endl << "感谢您的试玩 !!!" << endl << endl;
-
-    system("pause");
     return 0;
 
 }

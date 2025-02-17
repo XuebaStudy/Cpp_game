@@ -176,6 +176,30 @@ src/Event.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Event.cpp.s
 .PHONY : src/Event.cpp.s
 
+src/Mode.obj: src/Mode.cpp.obj
+.PHONY : src/Mode.obj
+
+# target to build an object file
+src/Mode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Mode.cpp.obj
+.PHONY : src/Mode.cpp.obj
+
+src/Mode.i: src/Mode.cpp.i
+.PHONY : src/Mode.i
+
+# target to preprocess a source file
+src/Mode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Mode.cpp.i
+.PHONY : src/Mode.cpp.i
+
+src/Mode.s: src/Mode.cpp.s
+.PHONY : src/Mode.s
+
+# target to generate assembly for a file
+src/Mode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Mode.cpp.s
+.PHONY : src/Mode.cpp.s
+
 src/Summoner.obj: src/Summoner.cpp.obj
 .PHONY : src/Summoner.obj
 
@@ -287,6 +311,9 @@ help:
 	@echo ... src/Event.obj
 	@echo ... src/Event.i
 	@echo ... src/Event.s
+	@echo ... src/Mode.obj
+	@echo ... src/Mode.i
+	@echo ... src/Mode.s
 	@echo ... src/Summoner.obj
 	@echo ... src/Summoner.i
 	@echo ... src/Summoner.s

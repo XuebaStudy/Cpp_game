@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 #include <memory>
-#include <unordered_map>
+#include <map>
 
 class Creature;
 class Summoner;
@@ -63,7 +63,7 @@ public:
 
 class CList {
 public:
-    inline static const std::unordered_map<std::string, std::string> jobMap = {
+    inline static const std::map<std::string, std::string> jobMap = {
         {"w", "Warrior"},
         {"m", "Mage"}
     };

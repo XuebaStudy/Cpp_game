@@ -10,5 +10,6 @@
 #include "Event.h"
 #include "Tools.h"
 #include "UserIO.h"
+#include "Mode.h"
 
 #endif

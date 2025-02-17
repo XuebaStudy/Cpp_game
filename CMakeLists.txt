@@ -19,4 +19,5 @@ add_executable(${PROJECT_NAME}
     src/Event.cpp
     src/Tools.cpp
     src/UserIO.cpp
+    src/Mode.cpp
 )
