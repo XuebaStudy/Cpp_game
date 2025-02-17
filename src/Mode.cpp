@@ -2,23 +2,24 @@
 
 using namespace std;
 
-void Menu(){
+void Menu(const string& user_name){
     do{
         cout << "请选择模式：" << endl << endl;
         cout << "1. 模拟战斗" << endl;
-        cout << "Else or -1. 退出世界" << endl;
+        cout << "Else or 0. 退出世界" << endl;
         int mode;
-        mode = inputInt(1, 1, -1, "模式");
+        mode = inputInt(0, 1, 0, "模式");
 
         switch(mode){
             case 1:
+                cout << endl;
                 SimulateBattle();
                 continue;
-            case -1:
+            case 0:
                 cout << "欢迎下次再来！" << endl;
-                return 0;
+                return ;
         }
-    }while(true)
+    }while(true);
 }
 
 void SimulateBattle(){
