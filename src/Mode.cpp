@@ -4,26 +4,31 @@ using namespace std;
 
 void Menu(const string& user_name){
     do{
-        cout << "请选择模式：" << endl << endl;
-        cout << "1. 模拟战斗" << endl;
-        cout << "Else or 0. 退出世界" << endl;
+        cout << endl << "请选择模式：" << endl;
+        cout << "1. 自定义战斗   ";
+        cout << "2. 战斗示例   " ;
+        cout << "Else or 0. 退出世界" << endl << endl;
         int mode;
-        mode = inputInt(0, 1, 0, "模式");
+        mode = inputInt(0, 2, 0, "模式");
 
         switch(mode){
             case 1:
                 cout << endl;
                 SimulateBattle();
                 continue;
+            case 2:
+                cout << endl;
+                ExampleBattle();
+                continue;
             case 0:
-                cout << "欢迎下次再来！" << endl;
+                cout << endl << "欢迎下次再来！" << endl;
                 return ;
         }
     }while(true);
 }
 
 void SimulateBattle(){
-    cout << "欢迎来到模拟战斗！" << endl << endl;
+    cout << "欢迎来到自定义战斗！" << endl << endl;
     int n;
     string nInput;
     Summoner A("A");
@@ -56,5 +61,28 @@ void SimulateBattle(){
 
     cout << endl << "感谢您的试玩 !!!" << endl << endl;
 
+    system("pause");
+}
+
+void ExampleBattle(){
+    cout << "欢迎来到战斗示例！" << endl << endl;
+
+    Summoner A("A");
+    Summoner B("B");
+
+    auto w0 = make_shared<Warrior>(15, "Warrior_0");
+    auto w1 = make_shared<Warrior>(15, "Warrior_1");
+    auto w2 = make_shared<Warrior>(10, "Warrior_2");
+    Cteam team = {w0,w1,w2};
+    A.summon(team);
+
+    auto m0 = make_shared<Mage>(15, "Mage_0");
+    auto m1 = make_shared<Mage>(15, "Mage_1");
+    auto w3 = make_shared<Warrior>(10, "Warrior_3");
+    team = {m0,m1,w3};
+    B.summon(team);
+
+    battle(A,B);
+    cout << endl << "感谢您的试玩 !!!" << endl << endl;
     system("pause");
 }

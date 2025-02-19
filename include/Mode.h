@@ -5,6 +5,7 @@
 void Menu(const std::string& user_name);
 
 void SimulateBattle();
+void ExampleBattle();
 
 
 #endif

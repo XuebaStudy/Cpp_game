@@ -192,6 +192,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: D:\desktop\C++game\src\main.cpp \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_map.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_multimap.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/erase_if.h \
+ D:/desktop/C++game/include/EffectType.h \
  D:/desktop/C++game/include/Summoner.h D:/desktop/C++game/include/Event.h \
  D:/desktop/C++game/include/Tools.h \
  E:/msys64/mingw64/include/c++/14.2.0/thread \
@@ -249,4 +250,5 @@ CMakeFiles/main.dir/src/main.cpp.obj: D:\desktop\C++game\src\main.cpp \
  E:/msys64/mingw64/include/c++/14.2.0/numeric \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_numeric.h \
  E:/msys64/mingw64/include/c++/14.2.0/pstl/glue_numeric_defs.h \
- D:/desktop/C++game/include/UserIO.h D:/desktop/C++game/include/Mode.h
+ D:/desktop/C++game/include/UserIO.h D:/desktop/C++game/include/Mode.h \
+ D:/desktop/C++game/include/Effect.h

@@ -181,6 +181,7 @@ CMakeFiles/main.dir/src/Summoner.cpp.obj: \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_map.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_multimap.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/erase_if.h \
+ D:/desktop/C++game/include/EffectType.h \
  E:/msys64/mingw64/include/c++/14.2.0/iostream \
  E:/msys64/mingw64/include/c++/14.2.0/istream \
  E:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc

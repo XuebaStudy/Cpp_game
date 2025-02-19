@@ -11,5 +11,6 @@
 #include "Tools.h"
 #include "UserIO.h"
 #include "Mode.h"
+#include "Effect.h"
 
 #endif

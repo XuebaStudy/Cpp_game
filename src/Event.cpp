@@ -16,7 +16,7 @@ void battle(Summoner& A, Summoner& B) {
     for (int R = 1; R < 100; R++) {
         system("pause");
 
-        cout << "---------------------";
+        cout << endl << "---------------------------";
         cout << "Round " << R << ": " ;
 
         if(R%2){
@@ -29,12 +29,12 @@ void battle(Summoner& A, Summoner& B) {
 
         }
         if (C.Non_live()) {
-            cout << "Summoner " << C.name << " has been defeated!" << endl << endl;
+            cout << endl << "Summoner " << C.name << " has been defeated!" << endl << endl;
             break;}
         if (D.Non_live()) {
-            cout << "Summoner " << D.name << " has been defeated!" << endl << endl;
+            cout << endl << "Summoner " << D.name << " has been defeated!" << endl << endl;
             break;}
-
+        
         C.show_info();  // 显示 C 的队伍信息
         D.show_info();  // 显示 D 的队伍信息
     }

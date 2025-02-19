@@ -6,15 +6,18 @@
 #include <memory>
 #include <map>
 
+#include "EffectType.h"
+
 class Creature;
 class Summoner;
-typedef std::vector<std::shared_ptr<Creature>> Cteam;
-
+class SkillEffect;
+using Cteam = std::vector<std::shared_ptr<Creature>>;
 
 class Creature {
 public:
     std::string name;
     int HP, ATK, DEF;
+    std::vector<std::shared_ptr<SkillEffect>> effects;
 
 public:
     Creature(int HP, int ATK, const std::string& name = "Unknown", int DEF = 0 );
@@ -25,9 +28,13 @@ public:
     void show_info();
     void show_HP();
     bool have_died();
-
+    virtual void round(Summoner& master,Summoner& opponent);
     virtual void action(Summoner& master,Summoner& opponent);
     virtual void attack_to(Cteam& team);
+
+    void addEffect(const std::shared_ptr<SkillEffect>& effect);
+    void updateEffects();
+    void clearEffects();
 
 };
 
@@ -39,6 +46,9 @@ public:
     Warrior(const Warrior& w);
     std::vector<int> Warrior_level_HAD(int level);
     std::shared_ptr<Creature> clone() const override;
+
+    void action(Summoner& master,Summoner& opponent);
+    void Battle_Roar (Cteam& Fteam);
 
 
 };
@@ -70,5 +80,6 @@ public:
 
     static std::shared_ptr<Creature> createCreature(const std::string& jobType, int level, const std::string& name);
 };
+
 
 #endif

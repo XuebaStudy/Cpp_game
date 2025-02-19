@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/Creature.cpp.obj"
   "CMakeFiles/main.dir/src/Creature.cpp.obj.d"
+  "CMakeFiles/main.dir/src/Effect.cpp.obj"
+  "CMakeFiles/main.dir/src/Effect.cpp.obj.d"
   "CMakeFiles/main.dir/src/Event.cpp.obj"
   "CMakeFiles/main.dir/src/Event.cpp.obj.d"
   "CMakeFiles/main.dir/src/Mode.cpp.obj"

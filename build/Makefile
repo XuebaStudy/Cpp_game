@@ -152,6 +152,30 @@ src/Creature.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Creature.cpp.s
 .PHONY : src/Creature.cpp.s
 
+src/Effect.obj: src/Effect.cpp.obj
+.PHONY : src/Effect.obj
+
+# target to build an object file
+src/Effect.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Effect.cpp.obj
+.PHONY : src/Effect.cpp.obj
+
+src/Effect.i: src/Effect.cpp.i
+.PHONY : src/Effect.i
+
+# target to preprocess a source file
+src/Effect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Effect.cpp.i
+.PHONY : src/Effect.cpp.i
+
+src/Effect.s: src/Effect.cpp.s
+.PHONY : src/Effect.s
+
+# target to generate assembly for a file
+src/Effect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Effect.cpp.s
+.PHONY : src/Effect.cpp.s
+
 src/Event.obj: src/Event.cpp.obj
 .PHONY : src/Event.obj
 
@@ -308,6 +332,9 @@ help:
 	@echo ... src/Creature.obj
 	@echo ... src/Creature.i
 	@echo ... src/Creature.s
+	@echo ... src/Effect.obj
+	@echo ... src/Effect.i
+	@echo ... src/Effect.s
 	@echo ... src/Event.obj
 	@echo ... src/Event.i
 	@echo ... src/Event.s

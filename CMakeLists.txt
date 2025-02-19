@@ -20,4 +20,5 @@ add_executable(${PROJECT_NAME}
     src/Tools.cpp
     src/UserIO.cpp
     src/Mode.cpp
+    src/Effect.cpp
 )

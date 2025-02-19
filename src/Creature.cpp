@@ -1,7 +1,11 @@
-#include "Creature.h"
-#include "Summoner.h"
+
 #include <iostream>
 #include <iomanip>
+
+#include "Creature.h"
+#include "Summoner.h"
+#include "Tools.h"
+#include "Effect.h"
 
 using namespace std;
 
@@ -16,7 +20,7 @@ shared_ptr<Creature> Creature:: clone() const {
 }
 
 void Creature::show_info() {
-    cout << left << setw(10) << name;
+    cout << left << setw(12) << name;
     cout << "HP:" << setw(5) << ((HP > 0) ? HP : 0);
     cout << "ATK:" << setw(5) << ATK; 
     if (DEF) {
@@ -42,6 +46,11 @@ bool Creature::have_died() {
     }
 }
 
+void Creature::round(Summoner& master,Summoner& opponent){
+    updateEffects();
+    action(master,opponent);
+    cout << endl;
+}
 void Creature::action(Summoner& master,Summoner& opponent) {
     attack_to(opponent.team);
 }
@@ -52,17 +61,52 @@ void Creature::attack_to(Cteam& team) {
             continue;
         else{
             if (this->ATK > c->DEF) {
-                cout << this->name << " hits " << c->name << " " << this->ATK - c->DEF << "HP" << endl;
+                cout << this->name << " :: Attack" << endl;
+                cout << c->name << " -" << this->ATK - c->DEF << "HP" ;
                 c->HP -= this->ATK - c->DEF;
             }
             if (c->ATK > this->DEF) {
-                cout << c->name << " in turn reduces " << this->name << " " << c->ATK - this->DEF << "HP" << endl;
+                cout << " (self -" << c->ATK - this->DEF << "HP)" ;
                 this->HP -= c->ATK - this->DEF;
             }
+            cout << endl;
             break;
         }
     }
 }
+
+void Creature::addEffect(const shared_ptr<SkillEffect>& effect) {
+    effects.push_back(effect);
+    effect->applyEffect(*this);  // 立即应用效果
+}
+
+// 更新技能效果（每个回合调用）
+void Creature::updateEffects() {
+    for (auto it = effects.begin(); it != effects.end();) {
+        it->get()->deDuration();
+        if (it->get()->isExpired()) {
+            it->get()->removeEffect(*this);
+            it = effects.erase(it);
+        } else {
+            // 根据效果类型执行额外逻辑
+            if (it->get()->type == EffectType::Normal) {
+                it->get()->applyEffect(*this);
+            }
+            ++it;
+        }
+    }
+}
+
+// 清除所有效果
+void Creature::clearEffects() {
+    for (auto& effect : effects) {
+        effect->removeEffect(*this);  // 移除每个效果
+    }
+    effects.clear();  // 清空效果列表
+}
+
+
+
 
 
 Warrior::Warrior(int level, const std::string& name)
@@ -90,6 +134,30 @@ shared_ptr<Creature> Warrior::clone() const{
     return make_shared<Warrior>(*this);
 }
 
+
+void Warrior::action(Summoner& master,Summoner& opponent){
+    int r = rint(1,10);
+    if(r<=3){
+        Battle_Roar(master.team);
+        attack_to(opponent.team);
+    }
+    else{
+        attack_to(opponent.team);
+    }
+}
+void Warrior::Battle_Roar (Cteam& Fteam){
+    cout << this->name << " :: Battle Roar." << endl;
+    for(auto& c: Fteam){
+        if(c->HP <= 0)
+            continue;
+        else{
+            c->addEffect(make_shared<FixedEffect>("ATK+10", 2, EffectType::Normal, 0,10,0));
+        }
+    }
+}
+
+
+
 Mage::Mage(int level, const std::string& name)
     : Creature
     (Mage_level_HAD(level)[0],
@@ -116,20 +184,28 @@ shared_ptr<Creature> Mage::clone() const{
 }
 
 void Mage::action(Summoner& master,Summoner& opponent){
-    Lightning_Chain(opponent.team);
+    int r = rint(1,10);
+    if(r<=8){
+        Lightning_Chain(opponent.team);
+    }
+    else{
+        attack_to(opponent.team);
+    }
 }
 
 void Mage::Lightning_Chain(Cteam& team){
-    cout << this->name << " casts Lightning Chain." << endl;
+    cout << this->name << " :: Lightning Chain." << endl;
     for(auto& c: team){
         if(c->HP <= 0)
             continue;
         else{
-            cout << "Lightning Chain hits " << c->name << " 30HP" << endl;
-            c->HP -= 30;
+            int damage = 40 + rint(0,5);
+            cout << "Lightning Chain hits " << c->name << " " << damage << "HP" << endl;
+            c->HP -= damage;
         }
     }
 }
+
 
 shared_ptr<Creature> CList::createCreature(const string& jobType, int level, const string& name) {
 

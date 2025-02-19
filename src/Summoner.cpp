@@ -54,6 +54,6 @@ void Summoner::attack_to(Summoner& target) {
     for (auto& attacker : this->team) {
         if(attacker->HP<=0)
             continue;
-        attacker->action(*this, target);
+        attacker->round(*this, target);
     }
 }

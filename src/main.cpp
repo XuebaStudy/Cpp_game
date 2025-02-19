@@ -2,14 +2,6 @@
 
 using namespace std;
 
-Cteam new_team(){
-    auto w0 = make_shared<Warrior>(10);
-    auto w1 = make_shared<Warrior>(10);
-    auto w2 = make_shared<Warrior>(10);
-    Cteam team = {w0,w1,w2};
-    return team;
-}
-
 int main(){
     system("chcp 65001");
     system("cls");
