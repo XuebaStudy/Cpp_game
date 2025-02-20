@@ -2,7 +2,7 @@
 setlocal
 
 set Mode="test"
-set Order="2.0"
+set Order="2.0.1"
 
 echo Adding files to Git...
 git add .
