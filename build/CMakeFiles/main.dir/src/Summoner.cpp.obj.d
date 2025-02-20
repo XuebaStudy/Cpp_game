@@ -1,6 +1,6 @@
 CMakeFiles/main.dir/src/Summoner.cpp.obj: \
  D:\desktop\C++game\src\Summoner.cpp \
- D:/desktop/C++game/include/Summoner.h \
+ D:/desktop/C++game/include/battle/Summoner.h \
  E:/msys64/mingw64/include/c++/14.2.0/string \
  E:/msys64/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
  E:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -174,14 +174,14 @@ CMakeFiles/main.dir/src/Summoner.cpp.obj: \
  E:/msys64/mingw64/include/c++/14.2.0/bits/ranges_algobase.h \
  E:/msys64/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h \
  E:/msys64/mingw64/include/c++/14.2.0/pstl/execution_defs.h \
- D:/desktop/C++game/include/Creature.h \
+ D:/desktop/C++game/include/battle/Creature.h \
  E:/msys64/mingw64/include/c++/14.2.0/map \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_tree.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/node_handle.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_map.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_multimap.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/erase_if.h \
- D:/desktop/C++game/include/EffectType.h \
+ D:/desktop/C++game/include/battle/EffectType.h \
  E:/msys64/mingw64/include/c++/14.2.0/iostream \
  E:/msys64/mingw64/include/c++/14.2.0/istream \
  E:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc

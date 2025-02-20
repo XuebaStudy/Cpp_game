@@ -4,7 +4,7 @@
 - 相当简陋
 
 ## 如何运行游戏 (Windows)
-- 运行 build/main.exe 即可
+- 运行 Project/bin/main.exe 即可
 
 ## 如何快速构建并运行 main.exe (Windows)
 1. 尽量保证已有:

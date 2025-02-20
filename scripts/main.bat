@@ -14,5 +14,14 @@ cd /d %BUILD_DIR%
 
 cmake -G "MinGW Makefiles" .. > NUL
 make > NUL
+
+if exist ..\Project\bin\main.exe (
+    echo Deleting old main.exe file...
+    del ..\Project\bin\main.exe
+)
+
+copy main.exe ..\Project\bin\main.exe > NUL
+
+cd ..\Project\bin
 main.exe
 

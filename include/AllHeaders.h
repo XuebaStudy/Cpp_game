@@ -5,12 +5,13 @@
 #include <iomanip>
 #include <string>
 
-#include "Creature.h"
-#include "Summoner.h"
+#include "battle/Creature.h"
+#include "battle/Summoner.h"
+#include "battle/Effect.h"
+#include "battle/EffectType.h"
 #include "Event.h"
 #include "Tools.h"
 #include "UserIO.h"
 #include "Mode.h"
-#include "Effect.h"
 
 #endif

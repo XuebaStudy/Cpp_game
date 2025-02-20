@@ -144,8 +144,8 @@ CMakeFiles/main.dir/src/Effect.cpp.obj: D:\desktop\C++game\src\Effect.cpp \
  E:/msys64/mingw64/include/c++/14.2.0/bits/ostream.tcc \
  E:/msys64/mingw64/include/c++/14.2.0/istream \
  E:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc \
- D:/desktop/C++game/include/Effect.h \
- D:/desktop/C++game/include/Creature.h \
+ D:/desktop/C++game/include/battle/Effect.h \
+ D:/desktop/C++game/include/battle/Creature.h \
  E:/msys64/mingw64/include/c++/14.2.0/vector \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_uninitialized.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_vector.h \
@@ -180,4 +180,4 @@ CMakeFiles/main.dir/src/Effect.cpp.obj: D:\desktop\C++game\src\Effect.cpp \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_map.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_multimap.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/erase_if.h \
- D:/desktop/C++game/include/EffectType.h
+ D:/desktop/C++game/include/battle/EffectType.h

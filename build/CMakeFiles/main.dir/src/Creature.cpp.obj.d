@@ -157,7 +157,7 @@ CMakeFiles/main.dir/src/Creature.cpp.obj: \
  E:/msys64/mingw64/include/c++/14.2.0/bits/quoted_string.h \
  E:/msys64/mingw64/include/c++/14.2.0/sstream \
  E:/msys64/mingw64/include/c++/14.2.0/bits/sstream.tcc \
- D:/desktop/C++game/include/Creature.h \
+ D:/desktop/C++game/include/battle/Creature.h \
  E:/msys64/mingw64/include/c++/14.2.0/vector \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_uninitialized.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_vector.h \
@@ -192,9 +192,10 @@ CMakeFiles/main.dir/src/Creature.cpp.obj: \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_map.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_multimap.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/erase_if.h \
- D:/desktop/C++game/include/EffectType.h \
- D:/desktop/C++game/include/Summoner.h \
- D:/desktop/C++game/include/Creature.h D:/desktop/C++game/include/Tools.h \
+ D:/desktop/C++game/include/battle/EffectType.h \
+ D:/desktop/C++game/include/battle/Summoner.h \
+ D:/desktop/C++game/include/battle/Creature.h \
+ D:/desktop/C++game/include/Tools.h \
  E:/msys64/mingw64/include/c++/14.2.0/thread \
  E:/msys64/mingw64/include/c++/14.2.0/stop_token \
  E:/msys64/mingw64/include/c++/14.2.0/atomic \
@@ -250,4 +251,4 @@ CMakeFiles/main.dir/src/Creature.cpp.obj: \
  E:/msys64/mingw64/include/c++/14.2.0/numeric \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_numeric.h \
  E:/msys64/mingw64/include/c++/14.2.0/pstl/glue_numeric_defs.h \
- D:/desktop/C++game/include/Effect.h
+ D:/desktop/C++game/include/battle/Effect.h

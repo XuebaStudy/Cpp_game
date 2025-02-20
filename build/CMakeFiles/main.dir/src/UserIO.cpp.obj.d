@@ -146,7 +146,7 @@ CMakeFiles/main.dir/src/UserIO.cpp.obj: D:\desktop\C++game\src\UserIO.cpp \
  E:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc \
  E:/msys64/mingw64/include/c++/14.2.0/sstream \
  E:/msys64/mingw64/include/c++/14.2.0/bits/sstream.tcc \
- D:/desktop/C++game/include/Creature.h \
+ D:/desktop/C++game/include/battle/Creature.h \
  E:/msys64/mingw64/include/c++/14.2.0/vector \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_uninitialized.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_vector.h \
@@ -181,6 +181,6 @@ CMakeFiles/main.dir/src/UserIO.cpp.obj: D:\desktop\C++game\src\UserIO.cpp \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_map.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_multimap.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/erase_if.h \
- D:/desktop/C++game/include/EffectType.h \
+ D:/desktop/C++game/include/battle/EffectType.h \
  D:/desktop/C++game/include/UserIO.h \
- D:/desktop/C++game/include/Creature.h
+ D:/desktop/C++game/include/battle/Creature.h

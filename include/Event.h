@@ -1,7 +1,7 @@
 #ifndef EVENT_H
 #define EVENT_H
 
-#include "Summoner.h"
+#include "battle/Summoner.h"
 
 void battle(Summoner& A, Summoner& B);
 

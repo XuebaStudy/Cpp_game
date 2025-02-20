@@ -8,6 +8,12 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "D:/desktop/C++game/CMakeLists.txt"
+  "D:/desktop/C++game/External/SFML-2.6.2/lib/cmake/SFML/SFMLConfig.cmake"
+  "D:/desktop/C++game/External/SFML-2.6.2/lib/cmake/SFML/SFMLConfigDependencies.cmake"
+  "D:/desktop/C++game/External/SFML-2.6.2/lib/cmake/SFML/SFMLConfigVersion.cmake"
+  "D:/desktop/C++game/External/SFML-2.6.2/lib/cmake/SFML/SFMLSharedTargets-debug.cmake"
+  "D:/desktop/C++game/External/SFML-2.6.2/lib/cmake/SFML/SFMLSharedTargets-release.cmake"
+  "D:/desktop/C++game/External/SFML-2.6.2/lib/cmake/SFML/SFMLSharedTargets.cmake"
   "CMakeFiles/3.31.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.4/CMakeRCCompiler.cmake"

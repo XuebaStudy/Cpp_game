@@ -1,1 +1,1 @@
--ID:/desktop/C++game/include
+-ID:/desktop/C++game/include -ID:/desktop/C++game/include/battle -isystem "D:/desktop/C++game/External/SFML-2.6.2/include"

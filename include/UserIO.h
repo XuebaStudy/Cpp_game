@@ -1,7 +1,7 @@
 #ifndef USERIO_H
 #define USERIO_H
 
-#include "Creature.h"
+#include "battle/Creature.h"
 
 // 输入职业类型
 std::string inputJob(const std::string& defaultJob);

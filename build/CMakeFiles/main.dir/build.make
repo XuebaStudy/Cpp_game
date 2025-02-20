@@ -214,6 +214,9 @@ main.exe: CMakeFiles/main.dir/src/UserIO.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Mode.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Effect.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
+main.exe: D:/desktop/C++game/External/SFML-2.6.2/lib/libsfml-graphics-d.a
+main.exe: D:/desktop/C++game/External/SFML-2.6.2/lib/libsfml-window-d.a
+main.exe: D:/desktop/C++game/External/SFML-2.6.2/lib/libsfml-system-d.a
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt

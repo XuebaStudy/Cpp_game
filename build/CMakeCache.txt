@@ -239,6 +239,12 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//The directory containing a CMake configuration file for SFML.
+SFML_DIR:PATH=D:/desktop/C++game/External/SFML-2.6.2/lib/cmake/SFML
+
+//Path to a file.
+SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND
+
 //Value Computed by CMake
 main_BINARY_DIR:STATIC=D:/desktop/C++game/build
 

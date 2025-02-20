@@ -144,7 +144,7 @@ CMakeFiles/main.dir/src/Event.cpp.obj: D:\desktop\C++game\src\Event.cpp \
  E:/msys64/mingw64/include/c++/14.2.0/bits/ostream.tcc \
  E:/msys64/mingw64/include/c++/14.2.0/istream \
  E:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc \
- D:/desktop/C++game/include/Summoner.h \
+ D:/desktop/C++game/include/battle/Summoner.h \
  E:/msys64/mingw64/include/c++/14.2.0/vector \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_uninitialized.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_vector.h \
@@ -173,14 +173,14 @@ CMakeFiles/main.dir/src/Event.cpp.obj: D:\desktop\C++game\src\Event.cpp \
  E:/msys64/mingw64/include/c++/14.2.0/bits/ranges_algobase.h \
  E:/msys64/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h \
  E:/msys64/mingw64/include/c++/14.2.0/pstl/execution_defs.h \
- D:/desktop/C++game/include/Creature.h \
+ D:/desktop/C++game/include/battle/Creature.h \
  E:/msys64/mingw64/include/c++/14.2.0/map \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_tree.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/node_handle.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_map.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/stl_multimap.h \
  E:/msys64/mingw64/include/c++/14.2.0/bits/erase_if.h \
- D:/desktop/C++game/include/EffectType.h \
+ D:/desktop/C++game/include/battle/EffectType.h \
  D:/desktop/C++game/include/Tools.h \
  E:/msys64/mingw64/include/c++/14.2.0/thread \
  E:/msys64/mingw64/include/c++/14.2.0/stop_token \

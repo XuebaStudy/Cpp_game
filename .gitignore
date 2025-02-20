@@ -1,1 +1,7 @@
 .vscode
+
+/build
+
+/test
+/src/test.cpp
+/Project/bin/test.exe
