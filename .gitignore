@@ -1,7 +1,9 @@
 .vscode
 
-/build
+/mingw64
 
 /test
 /src/test.cpp
 /Project/bin/test.exe
+
+/build

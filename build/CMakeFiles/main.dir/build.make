@@ -76,135 +76,135 @@ CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/main.cpp.obj: D:/desktop/C++game/src/main.cpp
 CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop\C++game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.obj"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.obj -MF CMakeFiles\main.dir\src\main.cpp.obj.d -o CMakeFiles\main.dir\src\main.cpp.obj -c D:\desktop\C++game\src\main.cpp
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.obj -MF CMakeFiles\main.dir\src\main.cpp.obj.d -o CMakeFiles\main.dir\src\main.cpp.obj -c D:\desktop\C++game\src\main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\main.cpp > CMakeFiles\main.dir\src\main.cpp.i
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\main.cpp > CMakeFiles\main.dir\src\main.cpp.i
 
 CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\main.cpp -o CMakeFiles\main.dir\src\main.cpp.s
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\main.cpp -o CMakeFiles\main.dir\src\main.cpp.s
 
 CMakeFiles/main.dir/src/Creature.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Creature.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/Creature.cpp.obj: D:/desktop/C++game/src/Creature.cpp
 CMakeFiles/main.dir/src/Creature.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop\C++game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/Creature.cpp.obj"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Creature.cpp.obj -MF CMakeFiles\main.dir\src\Creature.cpp.obj.d -o CMakeFiles\main.dir\src\Creature.cpp.obj -c D:\desktop\C++game\src\Creature.cpp
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Creature.cpp.obj -MF CMakeFiles\main.dir\src\Creature.cpp.obj.d -o CMakeFiles\main.dir\src\Creature.cpp.obj -c D:\desktop\C++game\src\Creature.cpp
 
 CMakeFiles/main.dir/src/Creature.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Creature.cpp.i"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\Creature.cpp > CMakeFiles\main.dir\src\Creature.cpp.i
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\Creature.cpp > CMakeFiles\main.dir\src\Creature.cpp.i
 
 CMakeFiles/main.dir/src/Creature.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Creature.cpp.s"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\Creature.cpp -o CMakeFiles\main.dir\src\Creature.cpp.s
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\Creature.cpp -o CMakeFiles\main.dir\src\Creature.cpp.s
 
 CMakeFiles/main.dir/src/Summoner.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Summoner.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/Summoner.cpp.obj: D:/desktop/C++game/src/Summoner.cpp
 CMakeFiles/main.dir/src/Summoner.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop\C++game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/Summoner.cpp.obj"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Summoner.cpp.obj -MF CMakeFiles\main.dir\src\Summoner.cpp.obj.d -o CMakeFiles\main.dir\src\Summoner.cpp.obj -c D:\desktop\C++game\src\Summoner.cpp
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Summoner.cpp.obj -MF CMakeFiles\main.dir\src\Summoner.cpp.obj.d -o CMakeFiles\main.dir\src\Summoner.cpp.obj -c D:\desktop\C++game\src\Summoner.cpp
 
 CMakeFiles/main.dir/src/Summoner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Summoner.cpp.i"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\Summoner.cpp > CMakeFiles\main.dir\src\Summoner.cpp.i
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\Summoner.cpp > CMakeFiles\main.dir\src\Summoner.cpp.i
 
 CMakeFiles/main.dir/src/Summoner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Summoner.cpp.s"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\Summoner.cpp -o CMakeFiles\main.dir\src\Summoner.cpp.s
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\Summoner.cpp -o CMakeFiles\main.dir\src\Summoner.cpp.s
 
 CMakeFiles/main.dir/src/Event.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Event.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/Event.cpp.obj: D:/desktop/C++game/src/Event.cpp
 CMakeFiles/main.dir/src/Event.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop\C++game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/Event.cpp.obj"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Event.cpp.obj -MF CMakeFiles\main.dir\src\Event.cpp.obj.d -o CMakeFiles\main.dir\src\Event.cpp.obj -c D:\desktop\C++game\src\Event.cpp
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Event.cpp.obj -MF CMakeFiles\main.dir\src\Event.cpp.obj.d -o CMakeFiles\main.dir\src\Event.cpp.obj -c D:\desktop\C++game\src\Event.cpp
 
 CMakeFiles/main.dir/src/Event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Event.cpp.i"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\Event.cpp > CMakeFiles\main.dir\src\Event.cpp.i
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\Event.cpp > CMakeFiles\main.dir\src\Event.cpp.i
 
 CMakeFiles/main.dir/src/Event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Event.cpp.s"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\Event.cpp -o CMakeFiles\main.dir\src\Event.cpp.s
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\Event.cpp -o CMakeFiles\main.dir\src\Event.cpp.s
 
 CMakeFiles/main.dir/src/Tools.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Tools.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/Tools.cpp.obj: D:/desktop/C++game/src/Tools.cpp
 CMakeFiles/main.dir/src/Tools.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop\C++game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/Tools.cpp.obj"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Tools.cpp.obj -MF CMakeFiles\main.dir\src\Tools.cpp.obj.d -o CMakeFiles\main.dir\src\Tools.cpp.obj -c D:\desktop\C++game\src\Tools.cpp
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Tools.cpp.obj -MF CMakeFiles\main.dir\src\Tools.cpp.obj.d -o CMakeFiles\main.dir\src\Tools.cpp.obj -c D:\desktop\C++game\src\Tools.cpp
 
 CMakeFiles/main.dir/src/Tools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Tools.cpp.i"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\Tools.cpp > CMakeFiles\main.dir\src\Tools.cpp.i
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\Tools.cpp > CMakeFiles\main.dir\src\Tools.cpp.i
 
 CMakeFiles/main.dir/src/Tools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Tools.cpp.s"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\Tools.cpp -o CMakeFiles\main.dir\src\Tools.cpp.s
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\Tools.cpp -o CMakeFiles\main.dir\src\Tools.cpp.s
 
 CMakeFiles/main.dir/src/UserIO.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/UserIO.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/UserIO.cpp.obj: D:/desktop/C++game/src/UserIO.cpp
 CMakeFiles/main.dir/src/UserIO.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop\C++game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/UserIO.cpp.obj"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/UserIO.cpp.obj -MF CMakeFiles\main.dir\src\UserIO.cpp.obj.d -o CMakeFiles\main.dir\src\UserIO.cpp.obj -c D:\desktop\C++game\src\UserIO.cpp
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/UserIO.cpp.obj -MF CMakeFiles\main.dir\src\UserIO.cpp.obj.d -o CMakeFiles\main.dir\src\UserIO.cpp.obj -c D:\desktop\C++game\src\UserIO.cpp
 
 CMakeFiles/main.dir/src/UserIO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/UserIO.cpp.i"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\UserIO.cpp > CMakeFiles\main.dir\src\UserIO.cpp.i
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\UserIO.cpp > CMakeFiles\main.dir\src\UserIO.cpp.i
 
 CMakeFiles/main.dir/src/UserIO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/UserIO.cpp.s"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\UserIO.cpp -o CMakeFiles\main.dir\src\UserIO.cpp.s
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\UserIO.cpp -o CMakeFiles\main.dir\src\UserIO.cpp.s
 
 CMakeFiles/main.dir/src/Mode.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Mode.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/Mode.cpp.obj: D:/desktop/C++game/src/Mode.cpp
 CMakeFiles/main.dir/src/Mode.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop\C++game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/Mode.cpp.obj"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Mode.cpp.obj -MF CMakeFiles\main.dir\src\Mode.cpp.obj.d -o CMakeFiles\main.dir\src\Mode.cpp.obj -c D:\desktop\C++game\src\Mode.cpp
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Mode.cpp.obj -MF CMakeFiles\main.dir\src\Mode.cpp.obj.d -o CMakeFiles\main.dir\src\Mode.cpp.obj -c D:\desktop\C++game\src\Mode.cpp
 
 CMakeFiles/main.dir/src/Mode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Mode.cpp.i"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\Mode.cpp > CMakeFiles\main.dir\src\Mode.cpp.i
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\Mode.cpp > CMakeFiles\main.dir\src\Mode.cpp.i
 
 CMakeFiles/main.dir/src/Mode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Mode.cpp.s"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\Mode.cpp -o CMakeFiles\main.dir\src\Mode.cpp.s
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\Mode.cpp -o CMakeFiles\main.dir\src\Mode.cpp.s
 
 CMakeFiles/main.dir/src/Effect.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Effect.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/Effect.cpp.obj: D:/desktop/C++game/src/Effect.cpp
 CMakeFiles/main.dir/src/Effect.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop\C++game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/Effect.cpp.obj"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Effect.cpp.obj -MF CMakeFiles\main.dir\src\Effect.cpp.obj.d -o CMakeFiles\main.dir\src\Effect.cpp.obj -c D:\desktop\C++game\src\Effect.cpp
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Effect.cpp.obj -MF CMakeFiles\main.dir\src\Effect.cpp.obj.d -o CMakeFiles\main.dir\src\Effect.cpp.obj -c D:\desktop\C++game\src\Effect.cpp
 
 CMakeFiles/main.dir/src/Effect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Effect.cpp.i"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\Effect.cpp > CMakeFiles\main.dir\src\Effect.cpp.i
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\Effect.cpp > CMakeFiles\main.dir\src\Effect.cpp.i
 
 CMakeFiles/main.dir/src/Effect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Effect.cpp.s"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\Effect.cpp -o CMakeFiles\main.dir\src\Effect.cpp.s
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\Effect.cpp -o CMakeFiles\main.dir\src\Effect.cpp.s
 
 CMakeFiles/main.dir/src/SFMLUI.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/SFMLUI.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/SFMLUI.cpp.obj: D:/desktop/C++game/src/SFMLUI.cpp
 CMakeFiles/main.dir/src/SFMLUI.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\desktop\C++game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/SFMLUI.cpp.obj"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/SFMLUI.cpp.obj -MF CMakeFiles\main.dir\src\SFMLUI.cpp.obj.d -o CMakeFiles\main.dir\src\SFMLUI.cpp.obj -c D:\desktop\C++game\src\SFMLUI.cpp
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/SFMLUI.cpp.obj -MF CMakeFiles\main.dir\src\SFMLUI.cpp.obj.d -o CMakeFiles\main.dir\src\SFMLUI.cpp.obj -c D:\desktop\C++game\src\SFMLUI.cpp
 
 CMakeFiles/main.dir/src/SFMLUI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/SFMLUI.cpp.i"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\SFMLUI.cpp > CMakeFiles\main.dir\src\SFMLUI.cpp.i
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\desktop\C++game\src\SFMLUI.cpp > CMakeFiles\main.dir\src\SFMLUI.cpp.i
 
 CMakeFiles/main.dir/src/SFMLUI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/SFMLUI.cpp.s"
-	E:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\SFMLUI.cpp -o CMakeFiles\main.dir\src\SFMLUI.cpp.s
+	D:\desktop\C++game\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\desktop\C++game\src\SFMLUI.cpp -o CMakeFiles\main.dir\src\SFMLUI.cpp.s
 
 # Object files for target main
 main_OBJECTS = \

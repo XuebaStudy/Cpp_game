@@ -2,7 +2,8 @@
 setlocal
 
 set Mode="test"
-set Order="3.0"
+set Order="3.1"
+set Message="Can be executed on other's windows and my WSL"
 
 echo Adding files to Git...
 git add .
