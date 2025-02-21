@@ -13,7 +13,7 @@ set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static-libgcc -static-lib
 
 set(CMAKE_PREFIX_PATH "External/SFML-2.6.2/lib/cmake/SFML")
 # 查找 SFML
-find_package(SFML 2.6 REQUIRED COMPONENTS system window graphics)
+find_package(SFML 2.6 REQUIRED COMPONENTS system window graphics audio)
 
 # 添加可执行文件
 add_executable(${PROJECT_NAME}
@@ -25,6 +25,7 @@ add_executable(${PROJECT_NAME}
     src/UserIO.cpp
     src/Mode.cpp
     src/Effect.cpp
+    src/SFMLUI.cpp
 )
 
 # 添加头文件目录
@@ -34,4 +35,4 @@ target_include_directories(${PROJECT_NAME} PRIVATE
 )
 
 # 链接 SFML 动态库
-target_link_libraries(${PROJECT_NAME} sfml-graphics sfml-window sfml-system)
+target_link_libraries(${PROJECT_NAME} sfml-graphics sfml-window sfml-system sfml-audio)

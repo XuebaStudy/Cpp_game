@@ -224,6 +224,30 @@ src/Mode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Mode.cpp.s
 .PHONY : src/Mode.cpp.s
 
+src/SFMLUI.obj: src/SFMLUI.cpp.obj
+.PHONY : src/SFMLUI.obj
+
+# target to build an object file
+src/SFMLUI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/SFMLUI.cpp.obj
+.PHONY : src/SFMLUI.cpp.obj
+
+src/SFMLUI.i: src/SFMLUI.cpp.i
+.PHONY : src/SFMLUI.i
+
+# target to preprocess a source file
+src/SFMLUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/SFMLUI.cpp.i
+.PHONY : src/SFMLUI.cpp.i
+
+src/SFMLUI.s: src/SFMLUI.cpp.s
+.PHONY : src/SFMLUI.s
+
+# target to generate assembly for a file
+src/SFMLUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/SFMLUI.cpp.s
+.PHONY : src/SFMLUI.cpp.s
+
 src/Summoner.obj: src/Summoner.cpp.obj
 .PHONY : src/Summoner.obj
 
@@ -341,6 +365,9 @@ help:
 	@echo ... src/Mode.obj
 	@echo ... src/Mode.i
 	@echo ... src/Mode.s
+	@echo ... src/SFMLUI.obj
+	@echo ... src/SFMLUI.i
+	@echo ... src/SFMLUI.s
 	@echo ... src/Summoner.obj
 	@echo ... src/Summoner.i
 	@echo ... src/Summoner.s

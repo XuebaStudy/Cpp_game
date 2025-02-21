@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/Event.cpp.obj.d"
   "CMakeFiles/main.dir/src/Mode.cpp.obj"
   "CMakeFiles/main.dir/src/Mode.cpp.obj.d"
+  "CMakeFiles/main.dir/src/SFMLUI.cpp.obj"
+  "CMakeFiles/main.dir/src/SFMLUI.cpp.obj.d"
   "CMakeFiles/main.dir/src/Summoner.cpp.obj"
   "CMakeFiles/main.dir/src/Summoner.cpp.obj.d"
   "CMakeFiles/main.dir/src/Tools.cpp.obj"

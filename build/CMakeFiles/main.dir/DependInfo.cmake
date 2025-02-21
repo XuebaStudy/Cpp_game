@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/desktop/C++game/src/Effect.cpp" "CMakeFiles/main.dir/src/Effect.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Effect.cpp.obj.d"
   "D:/desktop/C++game/src/Event.cpp" "CMakeFiles/main.dir/src/Event.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Event.cpp.obj.d"
   "D:/desktop/C++game/src/Mode.cpp" "CMakeFiles/main.dir/src/Mode.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Mode.cpp.obj.d"
+  "D:/desktop/C++game/src/SFMLUI.cpp" "CMakeFiles/main.dir/src/SFMLUI.cpp.obj" "gcc" "CMakeFiles/main.dir/src/SFMLUI.cpp.obj.d"
   "D:/desktop/C++game/src/Summoner.cpp" "CMakeFiles/main.dir/src/Summoner.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Summoner.cpp.obj.d"
   "D:/desktop/C++game/src/Tools.cpp" "CMakeFiles/main.dir/src/Tools.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Tools.cpp.obj.d"
   "D:/desktop/C++game/src/UserIO.cpp" "CMakeFiles/main.dir/src/UserIO.cpp.obj" "gcc" "CMakeFiles/main.dir/src/UserIO.cpp.obj.d"
